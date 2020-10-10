@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602311625835' stop='1602311631000'>
+    <name>Enter Site</name>
+    <title>Enter Site</title>
+    <test-cases>
+        <test-case start='1602311625835' status='broken' stop='1602311631000'>
+            <name>should allow the user to select their state and enter the main site </name>
+            <title>should allow the user to select their state and enter the main site </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Select element doesn't contain any option element</message>
+                <stack-trace>Error: Select element doesn't contain any option element
+                    at Element.selectByIndex (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriverio\build\commands\element\selectByIndex.js:10:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.selectByIndex (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\test\specs\/TabCorpTestOne.js:13:35)
+                    at Context.executeSync (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

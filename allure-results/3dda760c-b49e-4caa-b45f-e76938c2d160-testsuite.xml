@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602311379271' stop='1602311387847'>
+    <name>Enter Site</name>
+    <title>Enter Site</title>
+    <test-cases>
+        <test-case start='1602311379272' status='broken' stop='1602311387847'>
+            <name>should allow the user to select their state and enter the main site </name>
+            <title>should allow the user to select their state and enter the main site </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button type="button" data-id="select-state-button" class="btn btn-dropdown-alt btn-mobile-block dropdown-toggle ng-binding" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">...&lt;/button> is not clickable at point (643, 854). Other element would receive the click: &lt;div class="modal-body">...&lt;/div>
+                  (Session info: chrome=86.0.4240.75)</message>
+                <stack-trace>element click intercepted: Element &lt;button type="button" data-id="select-state-button" class="btn btn-dropdown-alt btn-mobile-block dropdown-toggle ng-binding" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">...&lt;/button> is not clickable at point (643, 854). Other element would receive the click: &lt;div class="modal-body">...&lt;/div>
+                  (Session info: chrome=86.0.4240.75)
+                    at Object.getErrorFromResponseBody (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriver\build\request.js:132:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.click (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\test\specs\/TabCorpTestOne.js:11:35)
+                    at Context.executeSync (C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\Josh\Git\webdriverIO-with-mochaBDD\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
