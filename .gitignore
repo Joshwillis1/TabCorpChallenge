@@ -6,4 +6,3 @@ test/reports/*
 package-lock.json
 allure-reports/*
 logs/*
-allure-results/*
