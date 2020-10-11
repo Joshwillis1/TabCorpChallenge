@@ -30,6 +30,7 @@ describe('Find a Venue', function() {
   it('should allow the user to search for a club', function () {
     // Search for a suburb
     FindVenuePage.searchInput.setValue("Newstead");
+    browser.keys("\uE007");
 
     // Select the "Pub" search filter
     FindVenuePage.searchFilterPub.click();
