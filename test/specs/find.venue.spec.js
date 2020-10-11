@@ -34,6 +34,7 @@ describe('Find a Venue', function() {
 
     // Select the "Pub" search filter
     FindVenuePage.searchFilterPub.click();
+    browser.pause(500);
 
     // Verify the venue list appears and the Oxford 152 is displayed
     FindVenuePage.venueList.waitForDisplayed({timeout: 10000})
@@ -43,6 +44,7 @@ describe('Find a Venue', function() {
   it('should allow the user to filter the search results for "Club"', function () {
     // Click on the "Club" search filter
     FindVenuePage.searchFilterClub.click();
+    browser.pause(500);
 
     // Verify the Bulimba Memorial Bowls & Community Club is displayed
     FindVenuePage.venueListItemBMBCC.waitForDisplayed({timeout: 10000});
