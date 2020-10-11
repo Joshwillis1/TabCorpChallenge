@@ -3,9 +3,9 @@ This project was created for the purposes of the TabCorp Technical Challenge.
 ## Tech/Framework
 WebdriverIO testing framework, coupled with Mocha and Chai. It uses Javascript and Node.js to execute the automated test scripts with Selenium.
 ## Prerequisites
-Node - v12.19.0
-Google Chrome
-Windows
+- Node - v12.19.0
+- Google Chrome
+- Windows
 ## Installation
 - Clone the repository
 - In your terminal, cd to the cloned repository
