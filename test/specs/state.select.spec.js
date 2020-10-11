@@ -1,5 +1,5 @@
 import SelectStatePage from "../pageobjects/select.state.page";
-import HomePage from "../pageobjects/home.page";
+import HomePage from "../pageobjects/keno.home.page";
 
 describe('Enter Site', function() {
   it('should allow the user to select their state and enter the main site ', function() {
@@ -13,6 +13,6 @@ describe('Enter Site', function() {
 
     // verify the user has landed on the home page
     HomePage.waitForPageToLoad();
-    HomePage.navBarHeader.isClickable().should.be.equal(true);
+    HomePage.navBarKenoHeader.isClickable().should.be.equal(true);
   });
 });
