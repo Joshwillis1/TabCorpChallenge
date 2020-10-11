@@ -1,19 +1,13 @@
 {
-  "name": "TabCorp Technical Challenge",
+  "name": "TabCorpTechnicalChallenge",
   "version": "2.0.2",
   "description": "WebDriver-v6 bindings for Node.js with Mocha",
-  "author": "Amiya Pattanaik <pattnaik_amiya@yahoo.com>",
+  "author": "Josh Willis <josh.willis1@live.com>",
   "license": "MIT",
-  "homepage": "https://github.com/amiya-pattnaik/webdriverIO-with-mochaBDD",
+  "homepage": "https://github.com/Joshwillis1/TabCorpChallenge",
   "main": "./node_modules/.bin/wdio",
   "scripts": {
-    "allure:history": "mkdir -p allure-report/history ./test/reports/allure-results/history && cp -a allure-report/history ./test/reports/allure-results/",
-    "allure-report": "node_modules/.bin/allure generate --clean ./test/reports/allure-results && allure open",
-    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html",
-    "test-sauce": "wdio ./test/config/wdio.sauce.conf.js",
-    "test-browserstack": "wdio ./test/config/wdio.browserstack.conf.js",
-    "test-local": "npm run allure:history && wdio ./test/config/wdio.local.conf.js",
-    "test-mobile": "wdio ./test/config/wdio.appium.conf.js"
+    "test-tabcorp": "wdio ./test/config/suite.mocha.conf.js"
   },
   "keywords": [
     "selenium",
@@ -27,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/amiya-pattnaik/webdriverIO-with-mochaBDD.git"
+    "url": "https://github.com/Joshwillis1/TabCorpChallenge.git"
   },
   "dependencies": {
     "chai": "^4.2.0"

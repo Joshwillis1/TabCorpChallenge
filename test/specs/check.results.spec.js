@@ -2,7 +2,7 @@ import SelectStatePage from "../pageobjects/select.state.page";
 import HomePage from "../pageobjects/keno.home.page";
 import CheckResultsPage from "../pageobjects/check.results.page"
 
-describe('Enter Site', function() {
+describe('Check Game Results', function() {
   it('should allow the user to select their state and enter the main site ', function() {
     // Open the keno.com.au web page
     browser.url('https://www.keno.com.au/');

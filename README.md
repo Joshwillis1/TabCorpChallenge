@@ -12,7 +12,7 @@ Windows
 - Run: npm install
 ## Executing the Tests
 In the repository, run:
-> ./node_modules/.bin/wdio ./test/config/suite.mocha.conf.js
+> npm run-script test-tabcorp
 ## Things to Note
 These tests can be adapted run asynchronously and in headless Chrome. For this project, they are set to run one by one.
 ## Credit

@@ -2,7 +2,7 @@ import SelectStatePage from "../pageobjects/select.state.page";
 import HomePage from "../pageobjects/keno.home.page";
 import FindVenuePage from "../pageobjects/find.venue.page"
 
-describe('Enter Site', function() {
+describe('Find a Venue', function() {
   it('should allow the user to select their state and enter the main site ', function() {
     // Open the keno.com.au web page
     browser.url('https://www.keno.com.au/');
@@ -35,7 +35,7 @@ describe('Enter Site', function() {
     FindVenuePage.searchFilterPub.click();
 
     // Verify the venue list appears and the Oxford 152 is displayed
-    FindVenuePage.venueList.waitForDisplayed({timeout: 5000})
+    FindVenuePage.venueList.waitForDisplayed({timeout: 10000})
     FindVenuePage.venueListItemOxford.isDisplayed().should.be.equal(true);
   });
 
@@ -44,7 +44,7 @@ describe('Enter Site', function() {
     FindVenuePage.searchFilterClub.click();
 
     // Verify the Bulimba Memorial Bowls & Community Club is displayed
-    FindVenuePage.venueListItemBMBCC.waitForDisplayed({timeout: 5000});
+    FindVenuePage.venueListItemBMBCC.waitForDisplayed({timeout: 10000});
     FindVenuePage.venueListItemBMBCC.isDisplayed().should.be.equal(true);
   });
 
