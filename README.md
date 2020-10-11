@@ -6,6 +6,12 @@ WebdriverIO testing framework, coupled with Mocha and Chai. It uses Javascript a
 - Node - v12.19.0
 - Google Chrome
 - Windows
+## Features Tested
+- Select a state and enter main site
+- How to win
+- Swap to Keno Racing and back to main site
+- Find a venue
+- Check results of past games
 ## Installation
 - Clone the repository
 - In your terminal, cd to the cloned repository
